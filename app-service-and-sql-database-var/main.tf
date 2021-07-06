@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "RG-Terraform" {
-  name     = "Azure_DevOps_Houssem"
+  name     = "terraform-resource-group"
   location = "West Europe"
 }
 
