@@ -1,10 +1,10 @@
 resource "azurerm_resource_group" "RG-Terraform" {
-  name     = "terraform-resource-group"
+  name     = "Azure_DevOps_Houssem"
   location = "West Europe"
 }
 
 resource "azurerm_app_service_plan" "ASP-TerraForm" {
-  name                = "terraform-appserviceplan"
+  name                = "elijah-terraform-appserviceplan"
   location            = azurerm_resource_group.RG-Terraform.location
   resource_group_name = azurerm_resource_group.RG-Terraform.name
 
